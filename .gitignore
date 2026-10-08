@@ -4,7 +4,7 @@ _work
 .DS_Store
 *.tsbuildinfo
 next-env.d.ts
-data
-docs
-assets
-.claude
+/data
+/docs
+/assets
+/.claude
