@@ -1,0 +1,407 @@
+{
+ "photos/p1-dream": {
+  "src": "/assets/shamim/photos/p1-dream.webp?v=f353fb80",
+  "w": 1380,
+  "h": 1840
+ },
+ "photos/p2-cowork": {
+  "src": "/assets/shamim/photos/p2-cowork.webp?v=d0c4c980",
+  "w": 1380,
+  "h": 1844
+ },
+ "photos/p3-collab": {
+  "src": "/assets/shamim/photos/p3-collab.webp?v=8f9c4e10",
+  "w": 1392,
+  "h": 1844
+ },
+ "photos/p4-podcast": {
+  "src": "/assets/shamim/photos/p4-podcast.webp?v=3a0d84c5",
+  "w": 1396,
+  "h": 1848
+ },
+ "photos/p5-video": {
+  "src": "/assets/shamim/photos/p5-video.webp?v=9f9fdb9c",
+  "w": 1368,
+  "h": 1844
+ },
+ "photos/p6-product": {
+  "src": "/assets/shamim/photos/p6-product.webp?v=c45a8020",
+  "w": 1376,
+  "h": 1840
+ },
+ "photos/p7-event": {
+  "src": "/assets/shamim/photos/p7-event.webp?v=25b2a4bb",
+  "w": 1392,
+  "h": 1844
+ },
+ "photos/p8-city": {
+  "src": "/assets/shamim/photos/p8-city.webp?v=945d6bb7",
+  "w": 1384,
+  "h": 1844
+ },
+ "photos/p8-skyline": {
+  "src": "/assets/shamim/photos/p8-skyline.webp?v=b6b914f8",
+  "w": 918,
+  "h": 760
+ },
+ "stickers/blob-green": {
+  "src": "/assets/shamim/stickers/blob-green.webp?v=5bb7b9c1",
+  "w": 246,
+  "h": 336
+ },
+ "stickers/blob-lavender": {
+  "src": "/assets/shamim/stickers/blob-lavender.webp?v=3b0c9980",
+  "w": 303,
+  "h": 312
+ },
+ "stickers/blob-navy": {
+  "src": "/assets/shamim/stickers/blob-navy.webp?v=59fcc580",
+  "w": 333,
+  "h": 282
+ },
+ "stickers/blob-pink": {
+  "src": "/assets/shamim/stickers/blob-pink.webp?v=ea8e360e",
+  "w": 348,
+  "h": 327
+ },
+ "stickers/blob-yellow": {
+  "src": "/assets/shamim/stickers/blob-yellow.webp?v=163681b7",
+  "w": 327,
+  "h": 330
+ },
+ "stickers/brush-green-sm": {
+  "src": "/assets/shamim/stickers/brush-green-sm.webp?v=0847588d",
+  "w": 459,
+  "h": 189
+ },
+ "stickers/brush-green": {
+  "src": "/assets/shamim/stickers/brush-green.webp?v=c8a40bd8",
+  "w": 510,
+  "h": 510
+ },
+ "stickers/brush-navy": {
+  "src": "/assets/shamim/stickers/brush-navy.webp?v=3a550751",
+  "w": 600,
+  "h": 366
+ },
+ "stickers/brush-pink-2": {
+  "src": "/assets/shamim/stickers/brush-pink-2.webp?v=11451924",
+  "w": 465,
+  "h": 324
+ },
+ "stickers/brush-pink-scribble": {
+  "src": "/assets/shamim/stickers/brush-pink-scribble.webp?v=bfc03807",
+  "w": 435,
+  "h": 243
+ },
+ "stickers/brush-pink": {
+  "src": "/assets/shamim/stickers/brush-pink.webp?v=0300704e",
+  "w": 624,
+  "h": 330
+ },
+ "stickers/brush-purple-halftone": {
+  "src": "/assets/shamim/stickers/brush-purple-halftone.webp?v=d5644b0a",
+  "w": 705,
+  "h": 525
+ },
+ "stickers/brush-purple-sm": {
+  "src": "/assets/shamim/stickers/brush-purple-sm.webp?v=6b89daf7",
+  "w": 480,
+  "h": 255
+ },
+ "stickers/brush-yellow-big": {
+  "src": "/assets/shamim/stickers/brush-yellow-big.webp?v=bde1586f",
+  "w": 681,
+  "h": 525
+ },
+ "stickers/brush-yellow-scribble-2": {
+  "src": "/assets/shamim/stickers/brush-yellow-scribble-2.webp?v=c2fba19b",
+  "w": 396,
+  "h": 312
+ },
+ "stickers/brush-yellow-scribble": {
+  "src": "/assets/shamim/stickers/brush-yellow-scribble.webp?v=b4f99903",
+  "w": 492,
+  "h": 390
+ },
+ "doodles/doodle-arrow-bend": {
+  "src": "/assets/shamim/doodles/doodle-arrow-bend.webp?v=acd8128e",
+  "w": 384,
+  "h": 270
+ },
+ "doodles/doodle-arrow-curve": {
+  "src": "/assets/shamim/doodles/doodle-arrow-curve.webp?v=1c14c8ee",
+  "w": 435,
+  "h": 195
+ },
+ "doodles/doodle-arrow-diag": {
+  "src": "/assets/shamim/doodles/doodle-arrow-diag.webp?v=c3433163",
+  "w": 357,
+  "h": 312
+ },
+ "doodles/doodle-arrow-double": {
+  "src": "/assets/shamim/doodles/doodle-arrow-double.webp?v=a991eb82",
+  "w": 174,
+  "h": 171
+ },
+ "doodles/doodle-arrow-up": {
+  "src": "/assets/shamim/doodles/doodle-arrow-up.webp?v=cafb9349",
+  "w": 222,
+  "h": 186
+ },
+ "doodles/doodle-bulb": {
+  "src": "/assets/shamim/doodles/doodle-bulb.webp?v=d2d99339",
+  "w": 291,
+  "h": 360
+ },
+ "doodles/doodle-burst-dark": {
+  "src": "/assets/shamim/doodles/doodle-burst-dark.webp?v=59e95b1c",
+  "w": 165,
+  "h": 210
+ },
+ "doodles/doodle-burst-pink": {
+  "src": "/assets/shamim/doodles/doodle-burst-pink.webp?v=9f25c5bc",
+  "w": 261,
+  "h": 252
+ },
+ "doodles/doodle-burst-purple": {
+  "src": "/assets/shamim/doodles/doodle-burst-purple.webp?v=a216eb98",
+  "w": 240,
+  "h": 255
+ },
+ "doodles/doodle-burst-yellow": {
+  "src": "/assets/shamim/doodles/doodle-burst-yellow.webp?v=3345cb2a",
+  "w": 168,
+  "h": 204
+ },
+ "doodles/doodle-circle-yellow": {
+  "src": "/assets/shamim/doodles/doodle-circle-yellow.webp?v=21cc10a3",
+  "w": 375,
+  "h": 255
+ },
+ "doodles/doodle-crown-sm": {
+  "src": "/assets/shamim/doodles/doodle-crown-sm.webp?v=e0ebc6bf",
+  "w": 171,
+  "h": 180
+ },
+ "doodles/doodle-crown": {
+  "src": "/assets/shamim/doodles/doodle-crown.webp?v=e8fa0288",
+  "w": 291,
+  "h": 240
+ },
+ "doodles/doodle-dots": {
+  "src": "/assets/shamim/doodles/doodle-dots.webp?v=0b2d6c90",
+  "w": 96,
+  "h": 210
+ },
+ "doodles/doodle-heart-sm": {
+  "src": "/assets/shamim/doodles/doodle-heart-sm.webp?v=d8184b87",
+  "w": 117,
+  "h": 141
+ },
+ "doodles/doodle-heart": {
+  "src": "/assets/shamim/doodles/doodle-heart.webp?v=37210b55",
+  "w": 138,
+  "h": 168
+ },
+ "doodles/doodle-m": {
+  "src": "/assets/shamim/doodles/doodle-m.webp?v=ff6b14f1",
+  "w": 171,
+  "h": 150
+ },
+ "doodles/doodle-scribble-green": {
+  "src": "/assets/shamim/doodles/doodle-scribble-green.webp?v=d57e98e7",
+  "w": 300,
+  "h": 165
+ },
+ "doodles/doodle-scribble-loop": {
+  "src": "/assets/shamim/doodles/doodle-scribble-loop.webp?v=e081458a",
+  "w": 417,
+  "h": 282
+ },
+ "doodles/doodle-scribble-vertical": {
+  "src": "/assets/shamim/doodles/doodle-scribble-vertical.webp?v=0b28c20a",
+  "w": 165,
+  "h": 414
+ },
+ "doodles/doodle-sparkle": {
+  "src": "/assets/shamim/doodles/doodle-sparkle.webp?v=691d2b60",
+  "w": 111,
+  "h": 165
+ },
+ "doodles/doodle-squiggle-arrow": {
+  "src": "/assets/shamim/doodles/doodle-squiggle-arrow.webp?v=0ed175fe",
+  "w": 501,
+  "h": 147
+ },
+ "doodles/doodle-squiggle": {
+  "src": "/assets/shamim/doodles/doodle-squiggle.webp?v=9ea0c6ec",
+  "w": 366,
+  "h": 66
+ },
+ "doodles/doodle-star-dark": {
+  "src": "/assets/shamim/doodles/doodle-star-dark.webp?v=47c174a2",
+  "w": 126,
+  "h": 165
+ },
+ "doodles/doodle-star-outline": {
+  "src": "/assets/shamim/doodles/doodle-star-outline.webp?v=140c4478",
+  "w": 210,
+  "h": 225
+ },
+ "doodles/doodle-star-yellow-sm": {
+  "src": "/assets/shamim/doodles/doodle-star-yellow-sm.webp?v=b49a8f11",
+  "w": 168,
+  "h": 144
+ },
+ "doodles/doodle-star-yellow": {
+  "src": "/assets/shamim/doodles/doodle-star-yellow.webp?v=c6b813cd",
+  "w": 192,
+  "h": 195
+ },
+ "doodles/doodle-tick": {
+  "src": "/assets/shamim/doodles/doodle-tick.webp?v=5335cfc3",
+  "w": 114,
+  "h": 102
+ },
+ "doodles/doodle-wave-green": {
+  "src": "/assets/shamim/doodles/doodle-wave-green.webp?v=fd1bfa35",
+  "w": 492,
+  "h": 90
+ },
+ "doodles/doodle-zigzag": {
+  "src": "/assets/shamim/doodles/doodle-zigzag.webp?v=96512bf4",
+  "w": 192,
+  "h": 111
+ },
+ "stickers/halftone-purple": {
+  "src": "/assets/shamim/stickers/halftone-purple.webp?v=b7f20498",
+  "w": 687,
+  "h": 624
+ },
+ "doodles/leaf-branch-dark": {
+  "src": "/assets/shamim/doodles/leaf-branch-dark.webp?v=9b679323",
+  "w": 444,
+  "h": 432
+ },
+ "doodles/leaf-dark-corner": {
+  "src": "/assets/shamim/doodles/leaf-dark-corner.webp?v=139243b0",
+  "w": 312,
+  "h": 342
+ },
+ "doodles/leaf-dark-tall": {
+  "src": "/assets/shamim/doodles/leaf-dark-tall.webp?v=7e91cbca",
+  "w": 240,
+  "h": 492
+ },
+ "doodles/leaf-green-tall": {
+  "src": "/assets/shamim/doodles/leaf-green-tall.webp?v=ac337f27",
+  "w": 270,
+  "h": 555
+ },
+ "doodles/leaf-purple": {
+  "src": "/assets/shamim/doodles/leaf-purple.webp?v=75a4e8d9",
+  "w": 282,
+  "h": 426
+ },
+ "doodles/leaf-yellow": {
+  "src": "/assets/shamim/doodles/leaf-yellow.webp?v=9c7ba040",
+  "w": 267,
+  "h": 411
+ },
+ "paper/paper-coral-fold": {
+  "src": "/assets/shamim/paper/paper-coral-fold.webp?v=68225b7d",
+  "w": 312,
+  "h": 297
+ },
+ "paper/paper-coral": {
+  "src": "/assets/shamim/paper/paper-coral.webp?v=7e724b18",
+  "w": 342,
+  "h": 357
+ },
+ "paper/paper-green": {
+  "src": "/assets/shamim/paper/paper-green.webp?v=da4c9586",
+  "w": 330,
+  "h": 411
+ },
+ "paper/paper-lavender": {
+  "src": "/assets/shamim/paper/paper-lavender.webp?v=4efe870a",
+  "w": 387,
+  "h": 396
+ },
+ "paper/paper-navy": {
+  "src": "/assets/shamim/paper/paper-navy.webp?v=b1db80e2",
+  "w": 591,
+  "h": 366
+ },
+ "paper/paper-purple-star": {
+  "src": "/assets/shamim/paper/paper-purple-star.webp?v=af64e0c7",
+  "w": 231,
+  "h": 315
+ },
+ "collage/photo-torn-woman": {
+  "src": "/assets/shamim/collage/photo-torn-woman.webp?v=6c4dadd5",
+  "w": 738,
+  "h": 591
+ },
+ "collage/polaroid-space": {
+  "src": "/assets/shamim/collage/polaroid-space.webp?v=3541a060",
+  "w": 576,
+  "h": 426
+ },
+ "doodles/shape-triangles": {
+  "src": "/assets/shamim/doodles/shape-triangles.webp?v=17141dfe",
+  "w": 441,
+  "h": 222
+ },
+ "paper/tape-dotted-yellow": {
+  "src": "/assets/shamim/paper/tape-dotted-yellow.webp?v=5fef3b02",
+  "w": 492,
+  "h": 186
+ },
+ "paper/tape-green-sm": {
+  "src": "/assets/shamim/paper/tape-green-sm.webp?v=e25c8def",
+  "w": 306,
+  "h": 102
+ },
+ "paper/tape-grey": {
+  "src": "/assets/shamim/paper/tape-grey.webp?v=9539e94d",
+  "w": 441,
+  "h": 186
+ },
+ "paper/tape-pink": {
+  "src": "/assets/shamim/paper/tape-pink.webp?v=51e731db",
+  "w": 462,
+  "h": 129
+ },
+ "paper/tape-purple-sm": {
+  "src": "/assets/shamim/paper/tape-purple-sm.webp?v=bb855c15",
+  "w": 369,
+  "h": 144
+ },
+ "paper/tape-stack": {
+  "src": "/assets/shamim/paper/tape-stack.webp?v=04573812",
+  "w": 1152,
+  "h": 390
+ },
+ "paper/texture-navy-distressed": {
+  "src": "/assets/shamim/paper/texture-navy-distressed.webp?v=222fb513",
+  "w": 702,
+  "h": 297
+ },
+ "stickers/watercolor-lavender": {
+  "src": "/assets/shamim/stickers/watercolor-lavender.webp?v=58427d23",
+  "w": 468,
+  "h": 387
+ },
+ "collage/cutout-hero": {
+  "src": "/assets/shamim/collage/cutout-hero.webp?v=4ea34420",
+  "w": 1271,
+  "h": 1400
+ },
+ "collage/cutout-journey": {
+  "src": "/assets/shamim/collage/cutout-journey.webp?v=4d5f6a46",
+  "w": 789,
+  "h": 1387
+ }
+}

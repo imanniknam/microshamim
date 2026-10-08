@@ -1,0 +1,10 @@
+node_modules
+.next
+_work
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+data
+docs
+assets
+.claude
