@@ -11,6 +11,7 @@ export type Block =
   | { type: "feature"; eyebrow?: string; title: string; paragraphs?: string[]; listTitle?: string; list?: string[]; image?: string; buttons?: Btn[]; reverse?: boolean; tone?: Tone }
   | { type: "faq"; title?: string; items: { q: string; a: string }[] }
   | { type: "cta"; title: string; text?: string; buttons: Btn[]; tone?: Tone }
+  | { type: "gallery"; eyebrow?: string; title?: string; intro?: string; items: { image: string; caption?: string }[]; tone?: Tone }
   | { type: "courses"; title?: string; intro?: string }
   | { type: "flow"; title?: string; intro?: string; items: string[]; text?: string };
 

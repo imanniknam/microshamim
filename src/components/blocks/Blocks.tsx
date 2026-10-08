@@ -281,6 +281,36 @@ function Flow({ b }: { b: Extract<Block, { type: "flow" }> }) {
   );
 }
 
+function Gallery({ b }: { b: Extract<Block, { type: "gallery" }> }) {
+  const dark = isDark(b.tone);
+  const tapes = ["var(--color-yellow)", "var(--color-coral)", "var(--color-green)", "var(--color-lavender)", "var(--color-purple)"];
+  return (
+    <section className={cn("relative overflow-x-clip py-9 sm:py-12 lg:py-20", TONE[b.tone ?? "cream"])}>
+      <div className="container-x">
+        <Head eyebrow={b.eyebrow} title={b.title} intro={b.intro} dark={dark} />
+        <ul className="mt-8 columns-2 gap-4 sm:gap-6 lg:columns-3 [&>li]:mb-5 sm:[&>li]:mb-7" data-reveal-stagger>
+          {b.items.map((it, i) => {
+            const a = resolveImage(it.image);
+            if (!a) return null;
+            const ratio = a.w && a.h ? a.w / a.h : 1.33;
+            return (
+              <li key={i} data-reveal-item className="break-inside-avoid" style={{ rotate: `${[-1.6, 1.2, -0.7, 1.8, -1.1, 0.8][i % 6]}deg` }}>
+                <a href={a.src} target="_blank" rel="noopener noreferrer" className="polaroid group relative block transition-transform duration-500 hover:-translate-y-2 hover:rotate-0" aria-label={`${it.caption || "تصویر"} — نمایش بزرگ`}>
+                  <div className="relative overflow-hidden bg-navy/10" style={{ aspectRatio: String(ratio) }}>
+                    <Image src={a.src} alt={it.caption ?? ""} fill sizes="(min-width:1024px) 400px, 46vw" quality={85} className="object-cover transition-transform duration-700 group-hover:scale-105" />
+                  </div>
+                  {it.caption && <span className="cap hand text-[0.82rem] sm:text-[0.95rem] text-navy px-1">{it.caption}</span>}
+                  <span className="tape -top-3 start-1/2 -ms-10 !w-16 sm:!w-20 !h-5 sm:!h-6" style={{ ["--tape" as string]: tapes[i % tapes.length] }} />
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </section>
+  );
+}
+
 function Courses({ b }: { b: Extract<Block, { type: "courses" }> }) {
   const list = listCourses();
   const aud: Record<string, string> = { teen: "۱۳ تا ۱۸ سال", youth: "۱۸ تا ۳۰ سال", all: "همه‌ی مسیرها" };
@@ -329,6 +359,7 @@ export function Blocks({ blocks }: { blocks: Block[] }) {
           case "feature": return <Feature key={i} b={b} />;
           case "faq": return <Faq key={i} b={b} />;
           case "cta": return <Cta key={i} b={b} />;
+          case "gallery": return <Gallery key={i} b={b} />;
           case "courses": return <Courses key={i} b={b} />;
           case "flow": return <Flow key={i} b={b} />;
           default: return null;

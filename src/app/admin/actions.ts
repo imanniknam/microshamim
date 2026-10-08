@@ -48,7 +48,7 @@ export async function logoutAction() {
 }
 
 /* ───────── pages (block CMS) ───────── */
-const BLOCK_TYPES = ["hero", "text", "cards", "checklist", "steps", "feature", "faq", "cta", "courses", "flow"];
+const BLOCK_TYPES = ["hero", "text", "cards", "checklist", "steps", "feature", "faq", "cta", "courses", "flow", "gallery"];
 function parseBlocks(raw: string): Block[] {
   const b = JSON.parse(raw);
   if (!Array.isArray(b) || b.some((x) => !x || !BLOCK_TYPES.includes(x.type))) throw new Error("bad blocks");

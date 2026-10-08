@@ -44,6 +44,101 @@
   "w": 918,
   "h": 760
  },
+ "model/m01": {
+  "src": "/assets/shamim/model/m01.webp?v=8e331da6",
+  "w": 1920,
+  "h": 1035
+ },
+ "model/m02": {
+  "src": "/assets/shamim/model/m02.webp?v=6fb5a4df",
+  "w": 1920,
+  "h": 1280
+ },
+ "model/m03": {
+  "src": "/assets/shamim/model/m03.webp?v=8519223c",
+  "w": 1920,
+  "h": 1280
+ },
+ "model/m04": {
+  "src": "/assets/shamim/model/m04.webp?v=7227512d",
+  "w": 1920,
+  "h": 1280
+ },
+ "model/m05": {
+  "src": "/assets/shamim/model/m05.webp?v=c2447e9c",
+  "w": 1920,
+  "h": 1280
+ },
+ "model/m06": {
+  "src": "/assets/shamim/model/m06.webp?v=76fe365c",
+  "w": 1920,
+  "h": 1280
+ },
+ "model/m07": {
+  "src": "/assets/shamim/model/m07.webp?v=3546d31d",
+  "w": 1920,
+  "h": 1280
+ },
+ "model/m08": {
+  "src": "/assets/shamim/model/m08.webp?v=a869c6c7",
+  "w": 1920,
+  "h": 1280
+ },
+ "model/m09": {
+  "src": "/assets/shamim/model/m09.webp?v=47cda1e1",
+  "w": 1920,
+  "h": 1280
+ },
+ "model/m10": {
+  "src": "/assets/shamim/model/m10.webp?v=62d8696e",
+  "w": 1440,
+  "h": 1920
+ },
+ "model/m11": {
+  "src": "/assets/shamim/model/m11.webp?v=73141c54",
+  "w": 1440,
+  "h": 1920
+ },
+ "model/m12": {
+  "src": "/assets/shamim/model/m12.webp?v=775e2d7c",
+  "w": 1920,
+  "h": 1440
+ },
+ "model/m13": {
+  "src": "/assets/shamim/model/m13.webp?v=e8eab1e6",
+  "w": 1920,
+  "h": 1440
+ },
+ "model/m14": {
+  "src": "/assets/shamim/model/m14.webp?v=2a4d31a5",
+  "w": 1920,
+  "h": 1440
+ },
+ "model/m15": {
+  "src": "/assets/shamim/model/m15.webp?v=be7549d6",
+  "w": 1920,
+  "h": 1440
+ },
+ "model/m16": {
+  "src": "/assets/shamim/model/m16.webp?v=34f5caa2",
+  "w": 1440,
+  "h": 1920
+ },
+ "model/m17": {
+  "src": "/assets/shamim/model/m17.webp?v=bc122a80",
+  "w": 1440,
+  "h": 1920
+ },
+ "model/m18": {
+  "src": "/assets/shamim/model/m18.webp?v=4cfd66b1",
+  "w": 1440,
+  "h": 1920
+ },
+ "model/m19": {
+  "src": "/assets/shamim/model/m19.webp?v=91589481",
+  "w": 1440,
+  "h": 1920
+ },
  "stickers/blob-green": {
   "src": "/assets/shamim/stickers/blob-green.webp?v=5bb7b9c1",
   "w": 246,

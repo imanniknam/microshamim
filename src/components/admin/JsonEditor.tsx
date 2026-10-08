@@ -7,6 +7,7 @@ export type AssetItem = { key: string; src: string };
 const Ctx = createContext<{ media: MediaItem[]; assets: AssetItem[]; plain: boolean }>({ media: [], assets: [], plain: false });
 
 const LABELS: Record<string, string> = {
+  caption: "کپشن زیر عکس",
   title: "عنوان", text: "متن", eyebrow: "برچسب بالای عنوان", subtitle: "زیرعنوان", paragraphs: "پاراگراف‌ها", buttons: "دکمه‌ها", button: "دکمه",
   label: "متن دکمه / برچسب", href: "پیوند", variant: "سبک دکمه", image: "تصویر", cover: "تصویر شاخص", photo: "تصویر", tone: "رنگ پس‌زمینه",
   items: "آیتم‌ها", columns: "تعداد ستون", list: "فهرست", listTitle: "عنوان فهرست", intro: "مقدمه", statement: "جمله‌ی بزرگ", highlight: "جمله‌ی برجسته",
@@ -55,7 +56,7 @@ function blank(v: unknown): unknown {
   return "";
 }
 const titleOf = (v: unknown, i: number) => {
-  if (v && typeof v === "object") { const o = v as Record<string, unknown>; const t = o.title ?? o.label ?? o.q ?? o.t ?? o.age ?? o.cap ?? o.name; if (typeof t === "string" && t) return t; }
+  if (v && typeof v === "object") { const o = v as Record<string, unknown>; const t = o.title ?? o.label ?? o.q ?? o.t ?? o.age ?? o.cap ?? o.name ?? o.caption; if (typeof t === "string" && t) return t; }
   return `آیتم ${i + 1}`;
 };
 

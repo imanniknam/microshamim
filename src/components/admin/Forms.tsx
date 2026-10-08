@@ -41,7 +41,7 @@ export function JsonForm({ action, initial, media, assets, plainAssets, extra, s
 }
 
 /* ───────── block editor ───────── */
-const BLOCK_LABEL: Record<string, string> = { hero: "هیرو (سربرگ)", text: "متن", cards: "کارت‌ها", checklist: "چک‌لیست", steps: "مراحل (زنجیره)", feature: "ویژگی (تصویر + متن)", faq: "سؤالات متداول", cta: "دعوت به اقدام", courses: "فهرست دوره‌ها", flow: "جریان (مراحل با فلش)" };
+const BLOCK_LABEL: Record<string, string> = { hero: "هیرو (سربرگ)", text: "متن", cards: "کارت‌ها", checklist: "چک‌لیست", steps: "مراحل (زنجیره)", feature: "ویژگی (تصویر + متن)", faq: "سؤالات متداول", cta: "دعوت به اقدام", gallery: "گالری عکس (کلاژ)", courses: "فهرست دوره‌ها", flow: "جریان (مراحل با فلش)" };
 const TEMPLATES: Record<string, unknown> = {
   hero: { type: "hero", eyebrow: "", title: "عنوان", subtitle: "", paragraphs: [""], buttons: [{ label: "", href: "/", variant: "purple" }], image: "", tone: "" },
   text: { type: "text", eyebrow: "", title: "عنوان", paragraphs: [""], highlight: "", tone: "" },
@@ -51,6 +51,7 @@ const TEMPLATES: Record<string, unknown> = {
   feature: { type: "feature", eyebrow: "", title: "عنوان", paragraphs: [""], listTitle: "", list: [], image: "", buttons: [], reverse: false, tone: "" },
   faq: { type: "faq", title: "سؤالات متداول", items: [{ q: "", a: "" }] },
   cta: { type: "cta", title: "عنوان", text: "", tone: "", buttons: [{ label: "", href: "/", variant: "purple" }] },
+  gallery: { type: "gallery", eyebrow: "", title: "گالری", intro: "", tone: "", items: [{ image: "", caption: "" }] },
   courses: { type: "courses", title: "دوره‌های فعال", intro: "" },
   flow: { type: "flow", title: "عنوان", intro: "", items: ["گام ۱", "گام ۲"], text: "" },
 };

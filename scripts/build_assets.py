@@ -15,6 +15,7 @@ import numpy as np, os, json, glob, shutil
 PUB = "public/assets/shamim"
 for d in ("photos", "textures", "doodles", "stickers", "paper", "collage"):
     os.makedirs(f"{PUB}/{d}", exist_ok=True)
+os.makedirs(f"{PUB}/model", exist_ok=True)
 
 manifest = {}
 def reg(kind, name, path):
@@ -41,6 +42,15 @@ for f in sorted(glob.glob("_work/photos_x4/*.png")):
 _sky = Image.open("_work/photos_x4/p8-city.png").convert("RGB").crop((470, 330, 1388, 1090))
 _sky.save(f"{PUB}/photos/p8-skyline.webp", quality=88, method=6)
 reg("photos", "p8-skyline", f"{PUB}/photos/p8-skyline.webp")
+
+# ── scale-model ("ماکت") photos: ESRGAN x4 -> downscale so the long edge is 1920px ──────────
+for f in sorted(glob.glob("_work/model_x4/*.png")):
+    n = os.path.basename(f)[:-4]
+    im = Image.open(f).convert("RGB")
+    im.thumbnail((1920, 1920), Image.LANCZOS)
+    dst = f"{PUB}/model/{n}.webp"
+    im.save(dst, quality=86, method=6)
+    reg("model", n, dst)
 
 # ── stickers ──────────────────────────────────────────────────────────────────
 GROUP = {
