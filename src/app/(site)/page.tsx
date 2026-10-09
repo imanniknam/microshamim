@@ -2,6 +2,7 @@ import { HeroSection } from "@/components/sections/HeroSection";
 import { ExperienceSection } from "@/components/sections/ExperienceSection";
 import { LearnLoopSection } from "@/components/sections/LearnLoopSection";
 import { SpacesSection } from "@/components/sections/SpacesSection";
+import { ModelShowcase } from "@/components/sections/ModelShowcase";
 import { ContentStudioSection } from "@/components/sections/ContentStudioSection";
 import { CoworkingSection } from "@/components/sections/CoworkingSection";
 import { GrowthJourney } from "@/components/sections/GrowthJourney";
@@ -20,6 +21,7 @@ export default function Home() {
       <ExperienceSection h={h} />
       <LearnLoopSection h={h} />
       <SpacesSection h={h} />
+      <ModelShowcase h={h} />
       <ContentStudioSection h={h} />
       <CoworkingSection h={h} />
       <GrowthJourney h={h} />

@@ -93,7 +93,7 @@ export function HeroSection({ h }: { h: HomeContent }) {
             <div className="absolute bottom-[5%] end-[1%] w-[22%] min-w-[110px] rotate-[-5deg] z-10 hidden sm:block" data-hero-polaroid>
               <div className="polaroid !p-[6px] !pb-[6px]">
                 <div className="relative aspect-[1.1/1]">
-                  <Photo name="photos/p2-cowork" alt="" sizes="160px" pos="50% 45%" />
+                  <Photo name="model/m02" alt="" sizes="160px" pos="50% 50%" />
                 </div>
                 <span className="tape -top-3 start-[22%]" style={{ width: 60, height: 20, ["--tape" as string]: "var(--color-yellow)" }} />
               </div>

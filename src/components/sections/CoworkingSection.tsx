@@ -53,7 +53,7 @@ export function CoworkingSection({ h }: { h: HomeContent }) {
               <PolaroidCard photo="photos/p3-collab" pos="50% 40%" rotate={-4} caption="کار در کنار هم‌مسیرها" alt="دختران جوان در حال همکاری" tape="var(--color-lavender)" sizes="(min-width:1024px) 330px, 50vw" />
             </div>
             <div className="absolute bottom-[0%] end-[4%] w-[36%] z-10" data-cowork-item>
-              <PolaroidCard photo="photos/p7-event" pos="50% 62%" rotate={5} caption="شبکه‌سازی" alt="گفت‌وگو و شبکه‌سازی در رویداد میکروشمیم" tape="var(--color-coral)" sizes="(min-width:1024px) 250px, 40vw" />
+              <PolaroidCard photo="model/m13" pos="50% 50%" rotate={5} caption="میز و نیمکت در ماکت" alt="میز و نیمکت محوطه در ماکت میکروشمیم" tape="var(--color-coral)" sizes="(min-width:1024px) 250px, 40vw" />
             </div>
             <Doodle name="doodles/doodle-arrow-bend" w={120} className="-bottom-12 start-[38%] z-30 hidden lg:block" rotate={80} speed={0.25} />
             <Doodle name="doodles/leaf-green-tall" w={70} className="top-[8%] start-[-3%] z-30" rotate={-20} speed={0.3} />

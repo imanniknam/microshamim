@@ -39,12 +39,21 @@ export const texts = {
   evIntro: "از نشست‌های شبکه‌سازی و کارگاه‌های مهارتی تا رویدادهای تخصصی و برنامه‌های ارائه دستاوردها، میکروشمیم فضایی زنده برای یادگیری و ارتباط است.",
   evBtn: "مشاهده رویدادها", evNote: "رویداد،\nنشست،\nکارگاه،\nشبکه‌سازی",
   inA: "تو برای کدام ", inB: "تجربه", inC: " با میکروشمیم همراه می‌شوی؟",
+  mdEyebrow: "ماکت میکروشمیم", mdA: "فضا را قبل از آمدن، ", mdB: "از نزدیک ببین",
+  mdIntro: "این ماکت، پلان و جزئیات فضای میکروشمیم است؛ اتاق‌ها، ستون‌ها، محوطه و میزهایی که قرار است یادگیری، کار و ایده‌ها در آن کنار هم قرار بگیرند.",
+  mdBtn: "مشاهده‌ی همه‌ی عکس‌های ماکت", mdBtn2: "درخواست بازدید حضوری", mdNote: "همه‌چیز را\nاز نزدیک ببین",
   fnEyebrow: "شروع", fnL1: "میکروشمیم؛", fnL2a: "یک فضا، ", fnL2b: "چندین مسیر",
   fnP: "ممکن است امروز برای یادگیری وارد میکروشمیم شوی، فردا برای کار کردن، و چند ماه بعد با یک پروژه واقعی برگردی. ما اینجا هستیم تا این مسیر را برایت کوتاه‌تر، واقعی‌تر و پر از تجربه‌های تازه کنیم.",
   fnQuote: "میکروشمیم؛ جایی برای دخترانی که می‌خواهند آینده‌شان را خودشان بسازند.", fnBtn: "شروع مسیر من در میکروشمیم",
 };
 
+export const model = [
+  { image: "model/m05", caption: "ستون‌ها و چادر" },
+  { image: "model/m13", caption: "میز و نیمکت" },
+  { image: "model/m16", caption: "اتاق‌ها روی پلان" },
+];
+
 export const homeDefaults = {
-  texts, quickNav, experiences, learnSteps, spaces, studioItems, coworkAudience, journey, audiences, skills, events, intents,
+  texts, model, quickNav, experiences, learnSteps, spaces, studioItems, coworkAudience, journey, audiences, skills, events, intents,
 };
 export type HomeContent = typeof homeDefaults;

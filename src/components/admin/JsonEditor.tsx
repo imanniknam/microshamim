@@ -7,6 +7,7 @@ export type AssetItem = { key: string; src: string };
 const Ctx = createContext<{ media: MediaItem[]; assets: AssetItem[]; plain: boolean }>({ media: [], assets: [], plain: false });
 
 const LABELS: Record<string, string> = {
+  model: "ماکت — عکس‌های کوچک زیر تصویر اصلی", mdEyebrow: "ماکت — برچسب", mdA: "ماکت — عنوان (۱)", mdB: "ماکت — هایلایت", mdIntro: "ماکت — مقدمه", mdBtn: "ماکت — دکمه ۱", mdBtn2: "ماکت — دکمه ۲", mdNote: "ماکت — دست‌نویس",
   caption: "کپشن زیر عکس",
   title: "عنوان", text: "متن", eyebrow: "برچسب بالای عنوان", subtitle: "زیرعنوان", paragraphs: "پاراگراف‌ها", buttons: "دکمه‌ها", button: "دکمه",
   label: "متن دکمه / برچسب", href: "پیوند", variant: "سبک دکمه", image: "تصویر", cover: "تصویر شاخص", photo: "تصویر", tone: "رنگ پس‌زمینه",

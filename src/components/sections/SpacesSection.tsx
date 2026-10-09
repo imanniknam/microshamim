@@ -50,21 +50,21 @@ export function SpacesSection({ h }: { h: HomeContent }) {
           </div>
 
           <div className="absolute top-[34%] end-[0%] w-[47%] z-10" data-collage-item data-from="end">
-            <PolaroidCard photo="photos/p3-collab" pos="50% 35%" rotate={4.5} caption="کار تیمی" alt="سه دختر جوان در حال کار تیمی پشت لپ‌تاپ" tape="var(--color-coral)" sizes="(min-width:1024px) 320px, 50vw" />
+            <PolaroidCard photo="model/m03" pos="50% 50%" rotate={4.5} caption="فضای مرکزی ماکت" alt="نمایی از فضای مرکزی ماکت میکروشمیم" tape="var(--color-coral)" sizes="(min-width:1024px) 320px, 50vw" />
           </div>
 
           <div className="absolute bottom-[0%] start-[5%] w-[44%] z-20" data-collage-item data-from="bottom">
-            <PolaroidCard photo="photos/p6-product" pos="50% 60%" rotate={-6} caption="استودیو عکاسی" alt="عکاسی محصول در استودیو" tape="var(--color-green)" sizes="(min-width:1024px) 300px, 46vw" />
+            <PolaroidCard photo="model/m09" pos="50% 50%" rotate={-6} caption="چادر و محوطه" alt="چادر، درخت و آتشگاه در ماکت میکروشمیم" tape="var(--color-green)" sizes="(min-width:1024px) 300px, 46vw" />
           </div>
 
           <div className="absolute top-[3%] end-[3%] w-[26%] rotate-[7deg]" data-collage-item data-from="scale">
             <div className="relative aspect-[1/1.15] torn bg-lavender overflow-hidden shadow-[0_14px_22px_-12px_rgba(16,22,47,.5)]">
-              <Photo name="photos/p7-event" alt="رویداد و دورهمی در میکروشمیم" sizes="200px" pos="50% 60%" />
+              <Photo name="model/m06" alt="اتاق‌ها و دیوارهای ماکت میکروشمیم" sizes="200px" pos="50% 50%" />
             </div>
             <span className="tape -top-3 start-[20%] !w-16 !h-5" style={{ ["--tape" as string]: "var(--color-yellow)" }} />
           </div>
 
-          <div className="hand absolute hidden sm:block bottom-[3%] start-[52%] w-[32%] text-[clamp(.95rem,.7rem+.8vw,1.35rem)] text-navy rotate-[-5deg] leading-[1.55] z-20" data-collage-item data-from="scale">
+          <div className="hand absolute hidden sm:block -bottom-[7%] start-[52%] w-[32%] text-[clamp(.95rem,.7rem+.8vw,1.35rem)] text-navy rotate-[-5deg] leading-[1.55] z-20" data-collage-item data-from="scale">
             <span className="whitespace-pre-line">{t.spNote}</span>
             <Doodle name="doodles/doodle-heart" w={34} className="static mt-1" />
           </div>

@@ -3,6 +3,7 @@ import { heroMotion } from "./hero";
 import { experienceMotion } from "./experience";
 import { learnMotion } from "./learn";
 import { collageMotion } from "./collage";
+import { modelMotion } from "./model";
 import { studioMotion } from "./studio";
 import { coworkMotion } from "./coworking";
 import { journeyMotion } from "./journey";
@@ -52,6 +53,7 @@ export function initMotion(g: G) {
         experienceMotion(g, env),
         learnMotion(g, env),
         collageMotion(g, env),
+        modelMotion(g, env),
         studioMotion(g, env),
         coworkMotion(g, env),
         journeyMotion(g, env),
